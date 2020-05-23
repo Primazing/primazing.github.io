@@ -1,0 +1,19 @@
+{
+  "name": "cycle-schoool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Primazing/Cycle-Schoool.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Primazing/Cycle-Schoool/issues"
+  },
+  "homepage": "https://github.com/Primazing/Cycle-Schoool#readme"
+}
