@@ -1,4 +1,4 @@
-# [primazing.github.io](http://primazing.github.io)
+# [primazing.github.io](https://primazing.github.io)
 
 This site belongs to Priyena. She is has designed and edited the content. Here is a list of concepts she learnt to use to create the site:
 
