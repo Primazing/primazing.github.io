@@ -16,3 +16,4 @@ open git bash
 `cd Documents\GitHub\primazing.github.io`
 type git commit then hit enter `git commit -am"your message"`
 `git push`
+
