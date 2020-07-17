@@ -3,11 +3,7 @@
     <head> 
         <title>The Water Cycle Quiz </title>
         
-       
-    </head>
-    <body>
-        <div>
-            <style>
+        <style>
             body {color:#d8d8ec (250, 3, 250);
                 
             font-size: 3em;
@@ -18,15 +14,48 @@
             border-width: 20px;    
             background-color: #ADD8E6;
             }
-            </style>
+        </style>
+                  
+    </head>
+    <body>
+        
+ 
        <h1>The Water Cycle Quiz!!!!</h1>
-        </div>
-        <div>style="color:black;font-size:29px"
-       <p>Welcome to the water cycle quiz!!!!</p>
-       <p>This quiz will be based on my{priyena's}website on the water cycle></p>
-       <p>I strongly surgest that you read my website before starting the quiz.</p>
-       <p>HAVE FUN!!!!</p>
-    </div>
+    
+        
+       <p> 
+       Welcome to the water cycle quiz!!!!
+       This quiz will be based on my{priyena's}website on the water cycle
+      I strongly surgest that you read my website before starting the quiz.
+       HAVE FUN!!!!
+    </p>
+    <script>
+        // 1. Create the button
+        var button = document.createElement("button");
+        button.innerHTML = "Quiz";
+        
+        // Style the button#
+        
+        button.style.background='#32CD32'
+        button.style.padding='30px 50px';
+        button.style.fontSize="30px";
+        button.style.color="red";
+        // 2. Append somewhere
+        var body = document.getElementById("quizbuttonplace");
+        body.appendChild(button);
+        
+        // 3. Add event handler
+        button.addEventListener ("click", function() {
+            window.location.href='introquiz.html'
+        });
+        
+        /* Read 
+        
+        https://css-tricks.com/use-button-element/
+        */
+        </script>
+       <p style="text-align:center;font-size:45px;color:hotpink">By Priyena Valani<br/></p> 
+    
     
     </body>
         
