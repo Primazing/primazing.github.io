@@ -27,19 +27,19 @@ body {
 
 <form>
 <div class="question">
-  <p>Q1. What is the third step in the Water Cycle? </p>
+  <p>Q1. What is Briar Nolet's most suited dance style?</p>
 </div>
   <span class="rounded-circle" style="border:rounded-lg; background-color: lightblue;">
-    <input type="radio" id="precipitation" name="cycle_type" value="precipitation">
-    <label for="precipitation">Precipitation </label><br>
+    <input type="radio" id="break_dancer" name="dance_type" value="break_dancer">
+    <label for="break_dancer">Break dancing </label><br>
   </span>
   
-  <input type="radio" id="condensation" name="cycle_type" value="condensation">
-  <label for="condensation">Condensation</label><br>
-  <input type="radio" id="evaporation" name="cycle_type" value="evaporation">
-  <label for="evaporation">Evaporation</label><br>
-  <input type="radio" id="runoff" name="cycle_type" value="runoff">
-  <label for="runoff">Runoff and Ground Water</label><br>
+  <input type="radio" id="hiphop" name="dance_type" value="hiphop">
+  <label for="hiphop">Hip hop</label><br>
+  <input type="radio" id="ballet" name="dance_type" value="ballet">
+  <label for="ballet">Ballet</label><br>
+  <input type="radio" id="acro_contentemporary" name="dance_type" value="acro">
+  <label for="acro_contentemporary">Acro Contemporary</label><br>
   <br>  
   <p id="log"></p>
 
@@ -55,13 +55,13 @@ form.addEventListener("submit", function(event) {
 
   var output = "";
   for (const entry of data) {
-    if( entry[1] == 'precipitation'){
+    if( entry[1] == 'acro'){
         output = "YOU ARE CORRECT" + "\r";
         log.style = "color: green";
 
     }
     else{
-        output = "YOU ARE INCORRECT,Go back and check my website for an answer!!!!"+"\r";
+        output = "YOU ARE INCORRECT" + "\r";
         log.style = "color: red";
     
     }
