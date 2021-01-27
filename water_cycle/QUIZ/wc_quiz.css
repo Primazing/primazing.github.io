@@ -1,0 +1,19 @@
+body {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+}
+#container {
+    grid-column-start:2;
+    text-align: center;
+    width: 800px;
+}
+#question {
+    border: 2px;
+    border-style: solid;
+    border-radius: 50px;
+    height: 50px;
+}
+answerRow {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
