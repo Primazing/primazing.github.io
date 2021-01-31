@@ -1,19 +1,81 @@
 body {
   display: grid;
   grid-template-columns: 20% 60% 20%;
+  background-image: url('../../public/images/awesome-confetti-background.gif');
+  background-size: cover;
+   
 }
 #container {
     grid-column-start:2;
     text-align: center;
-    width: 800px;
+    width: 800px;  font-family:"Indie Flower";
+    font-size: xx-large;
 }
 #question {
-    border: 2px;
-    border-style: solid;
-    border-radius: 50px;
-    height: 50px;
-}
+
+    border-radius: 40px;
+
+    text-align: center;
+    background-color: rgb(181, 147, 224);
+    font-weight: bold;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 70px;
+    margin-top: 60px;
+    
+  }
 answerRow {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 45% 10% 45%;
+  padding: 5px;
+  margin-bottom: 70px;
 }
+
+answer {
+  border: 5px;
+  border-style: solid;
+  padding: 50px;    
+  text-decoration-color: black;
+
+}
+
+#answer1{
+ border-color: lightgreen;
+ background-color:lightgreen;
+ font-weight: bold;
+ border-radius: 15px;
+ 
+}
+
+#answer2{
+  border-color: cornflowerblue;
+  background-color: cornflowerblue;
+  font-weight: bold;
+  border-radius: 15px;
+  grid-column-end: 4;
+ }
+
+ #answer3{
+  border-color: red;
+  background-color: red;
+  font-weight: bold;
+  border-radius: 15px;
+ }
+
+ #answer4{
+  border-color: gold;
+  background-color: gold;
+ font-weight: bold;
+ border-radius: 15px;
+ grid-column-end: 4;
+ }
+
+ #submit{
+  border-color: dodgerblue;
+  background-color:dodgerblue;
+  font-weight: bold;
+  border-radius: 15px;
+  width: 80%;
+  margin: auto;  
+ }
+ 
