@@ -1,3 +1,8 @@
+body{
+    background-image: url('./public/images/awesome-confetti-background.gif');
+    background-size: cover;
+}
+
 #header {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
@@ -8,7 +13,11 @@
 
     justify-items: center;
     align-items: center;
-}
+
+    background-image: url('../../public/images/awesome-confetti-background.gif');
+    background-size: cover;
+}  
+
 
 #circles{
     display: grid;
@@ -26,14 +35,12 @@
 
 
 
+
+
 slogan {
-    background-image: url('./public/images/awesome-confetti-background.gif');
-    background-size: contain;
     text-align: center;
     font-family:"Indie Flower";
     font-size: 8vw;
-    border-color: black;
-    border-style: groove;
     border-radius: 30px;    object-fit: cover;
 }
 
@@ -50,11 +57,8 @@ slogan {
 
 #Logo > img {
     width: auto;
-    border-color: black;
-    border-style: ridge;
     border-radius: 35%;
-    background-image: url('./public/images/awesome-confetti-background.gif');
-    background-size: contain;
+
 }
 
 
