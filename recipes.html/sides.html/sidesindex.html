@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>starters</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+    <style>
+      .container {
+            position: relative;
+            height: 300px; 
+            text-align: center;
+        }
+        .rectangle {
+          position: absolute;
+            width: 110%;
+            height: 100px;
+            background-color: #8FBC8F;
+            border: 3.5px solid #8FBC8F;
+            top: 10%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .header {
+            position: absolute;
+            top: 15%;
+            left: 49%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 50px;
+            font-family: 'Amatic SC', cursive;
+        }
+        .rectangle2 {
+           position: absolute;
+            width: 350px;
+            height: 50px;
+            background-color: #8FBC8F;
+            border: 3.5px solid #8FBC8F;
+            border-radius: 20px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .subheader {
+            position: absolute;
+            top: -5%;
+            left: 49%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 40px;
+            font-family: 'Amatic SC', cursive;
+        }
+        .circle {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            position: absolute;
+            top: 400px;
+            left: 50px;
+            background-color: rgba(0, 0, 0, 0.16);
+            background-image: url("samplecircleimage1.jpeg");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 70px;
+            font-family: 'Amatic SC' , cursive;
+            cursor: pointer;
+        }
+        .circle2 {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            background-color: rgba(0, 0, 0, 0.32);
+            position: absolute;
+            top: 400px;
+            left: 400px;
+            background-image: url("samplecircleimage2.jpeg");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 70px;
+            font-family: 'Amatic SC' , cursive;
+            cursor: pointer;
+        }
+        .circle3 {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            background-color: rgba(0, 0, 0, 0.48);
+            position: absolute;
+            top: 750px;
+            left: 50px;
+            background-image: url("samplecircleimage3.jpeg");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 70px;
+            font-family: 'Amatic SC' , cursive;
+            cursor: pointer;
+        }
+        .circle4 {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            background-color: rgba(0, 0, 0, 0.64);
+            position: absolute;
+            top: 750px;
+            left: 400px;
+            background-image: url("samplecircleimage4.jpeg");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 70px;
+            font-family: 'Amatic SC' , cursive;
+            cursor: pointer;
+        }
+        .circle5 {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            background-color: rgba(0, 0, 0, 0.80);
+            position: absolute;
+            top: 1100px;
+            left: 50px;
+            background-image: url("samplecircleimage5.jpeg");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 70px;
+            font-family: 'Amatic SC' , cursive;
+            cursor: pointer;
+        }
+        .circle6 {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            background-color: rgba(0, 0, 0, 96);
+            position: absolute;
+            top: 1100px;
+            left: 400px;
+            background-image: url("samplecircleimage6.jpeg");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 70px;
+            font-family: 'Amatic SC' , cursive;
+            cursor: pointer;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="rectangle">
+              <h1 class="header">allergiez</h1>
+            </div>
+            <div class="rectangle2">
+                <h1 class="subheader">sides</h1>
+              </div>
+              <div class="circle" onclick="handleCircleClick()">
+                <span>side1</span>
+              </div>
+              <div class="circle2" onclick="handleCircleClick2()">
+                <span>side2</span>
+              </div>
+              <div class="circle3" onclick="handleCircleClick3()">
+                <span>side3</span>
+              </div>
+              <div class="circle4" onclick="handleCircleClick4()">
+                <span>side4</span>
+              </div>
+              <div class="circle5" onclick="handleCircleClick5()">
+                <span>side5</span>
+              </div>
+              <div class="circle6" onclick="handleCircleClick6()">
+                <span>side6</span>
+              </div>
+        </div>
+        <script>
+ function handleCircleClick() {
+      console.log("Button clicked!");
+      window.open('side1.html', '_blank');
+    }
+    function handleCircleClick2() {
+      console.log("Button clicked!");
+      window.open('side2.html', '_blank');
+    }
+    function handleCircleClick3() {
+      console.log("Button clicked!");
+      window.open('side3.html', '_blank');
+    }
+    function handleCircleClick4() {
+      console.log("Button clicked!");
+      window.open('side4.html', '_blank');
+    }
+    function handleCircleClick5() {
+      console.log("Button clicked!");
+      window.open('side5.html', '_blank');
+    }
+    function handleCircleClick6() {
+      console.log("Button clicked!");
+      window.open('side6.html', '_blank');
+    }
+            
+          </script>
+    </body>
+    </html>
